@@ -1,0 +1,64 @@
+{"ts":"2026-04-19T11:07:16.060Z","level":"INFO","message":"Starting agent","meta":null}
+{"ts":"2026-04-19T11:07:16.062Z","level":"INFO","message":"Using model mistral:7b-instruct","meta":null}
+{"ts":"2026-04-19T11:07:16.685Z","level":"INFO","message":"Loaded 36 tools","meta":null}
+{"ts":"2026-04-19T11:07:37.668Z","level":"INFO","message":"Calling Ollama","meta":{"model":"mistral:7b-instruct","messages":2}}
+{"ts":"2026-04-19T11:08:40.665Z","level":"INFO","message":"Ollama replied","meta":null}
+{"ts":"2026-04-19T12:04:21.909Z","level":"INFO","message":"Starting MCP Agent","meta":null}
+{"ts":"2026-04-19T12:04:22.420Z","level":"INFO","message":"Loaded 36 tools","meta":null}
+{"ts":"2026-04-19T12:04:22.432Z","level":"INFO","message":"HTTP API running on 8787","meta":null}
+{"ts":"2026-04-19T12:07:45.760Z","level":"INFO","message":"API request 4847326f-670e-47dc-a6d2-6264853f87fd","meta":null}
+{"ts":"2026-04-19T12:07:45.825Z","level":"ERROR","message":"API failure 4847326f-670e-47dc-a6d2-6264853f87fd","meta":{}}
+{"ts":"2026-04-19T12:09:46.543Z","level":"INFO","message":"Starting MCP Agent","meta":null}
+{"ts":"2026-04-19T12:09:46.947Z","level":"INFO","message":"Loaded 34 tools","meta":null}
+{"ts":"2026-04-19T12:09:46.954Z","level":"INFO","message":"HTTP API running on 8787","meta":null}
+{"ts":"2026-04-19T12:09:54.838Z","level":"INFO","message":"Starting MCP Agent","meta":null}
+{"ts":"2026-04-19T12:09:55.111Z","level":"INFO","message":"Loaded 34 tools","meta":null}
+{"ts":"2026-04-19T12:09:55.118Z","level":"INFO","message":"HTTP API running on 8787","meta":null}
+{"ts":"2026-04-19T12:10:01.281Z","level":"INFO","message":"API request 448a30e7-ed35-47ac-9d08-5fe41a6095fc","meta":null}
+{"ts":"2026-04-19T12:10:45.924Z","level":"TOOL","message":"system_info","meta":{}}
+{"ts":"2026-04-19T12:11:39.029Z","level":"INFO","message":"API request d5500329-ca5c-46a9-9f42-a67061bdb33c","meta":null}
+{"ts":"2026-04-19T12:12:11.490Z","level":"TOOL","message":"youtube_play","meta":{"query":"ghost town kanye west","autoplay":true}}
+{"ts":"2026-04-19T12:14:51.419Z","level":"INFO","message":"API request 353686d0-dfe0-429f-8c5c-b367ef836cc2","meta":null}
+{"ts":"2026-04-19T12:15:24.380Z","level":"TOOL","message":"open_app","meta":{"app":"spotify"}}
+{"ts":"2026-04-19T12:16:03.314Z","level":"INFO","message":"API request c88c65a9-e8df-4b18-ad44-c017dc296781","meta":null}
+{"ts":"2026-04-19T12:16:33.567Z","level":"TOOL","message":"clipboard_get","meta":{}}
+{"ts":"2026-04-19T12:25:50.578Z","level":"INFO","message":"API request b6ad9eb0-d096-433c-81ba-abbf3216608b","meta":null}
+{"ts":"2026-04-19T12:26:40.540Z","level":"TOOL","message":"system_info","meta":{}}
+{"ts":"2026-04-19T12:38:36.075Z","level":"INFO","message":"API request b42e729e-4b91-4ab0-8f38-0e5cab558954","meta":null}
+{"ts":"2026-04-19T12:39:25.928Z","level":"TOOL","message":"open_app","meta":{"app":"spotify"}}
+{"ts":"2026-04-19T12:39:55.619Z","level":"INFO","message":"API request dbf05e61-96fd-4a37-92b9-ca7c480580a8","meta":null}
+{"ts":"2026-04-19T12:40:31.412Z","level":"TOOL","message":"youtube_play","meta":{"query":"kanmani anbodu","autoplay":"1"}}
+{"ts":"2026-04-19T12:40:57.735Z","level":"INFO","message":"API request 8b613983-9e81-4560-98d8-17678b6c2973","meta":null}
+{"ts":"2026-04-19T12:41:38.383Z","level":"TOOL","message":"open_app","meta":{"app":"spotify"}}
+{"ts":"2026-04-19T12:42:15.245Z","level":"INFO","message":"API request ca0037c3-ec3a-44e9-a55a-6e114c4a70c0","meta":null}
+{"ts":"2026-04-19T12:42:50.620Z","level":"TOOL","message":"youtube_play","meta":{"autoplay":true,"query":"9 by drake on spotify"}}
+{"ts":"2026-04-19T12:59:54.402Z","level":"INFO","message":"local-mcp-agent v5 starting","meta":null}
+{"ts":"2026-04-19T12:59:54.405Z","level":"INFO","message":"Model: llama3.1:latest  Endpoint: http://127.0.0.1:11434","meta":null}
+{"ts":"2026-04-19T12:59:54.405Z","level":"INFO","message":"Connecting to 1 MCP server(s)...","meta":null}
+{"ts":"2026-04-19T12:59:54.838Z","level":"INFO","message":"Connected to 'local' — 48 tool(s)","meta":null}
+{"ts":"2026-04-19T12:59:54.839Z","level":"INFO","message":"Tool registry ready — 48 tool(s) total","meta":null}
+{"ts":"2026-04-19T12:59:54.849Z","level":"INFO","message":"HTTP API listening on :8787","meta":null}
+{"ts":"2026-04-19T12:59:54.849Z","level":"INFO","message":"  GET  /health          → status check","meta":null}
+{"ts":"2026-04-19T12:59:54.849Z","level":"INFO","message":"  GET  /tools           → list all tools","meta":null}
+{"ts":"2026-04-19T12:59:54.849Z","level":"INFO","message":"  GET  /sessions        → list active sessions","meta":null}
+{"ts":"2026-04-19T12:59:54.849Z","level":"INFO","message":"  POST /chat            → blocking chat","meta":null}
+{"ts":"2026-04-19T12:59:54.850Z","level":"INFO","message":"  POST /chat/stream     → SSE streaming chat","meta":null}
+{"ts":"2026-04-19T12:59:54.850Z","level":"INFO","message":"  DELETE /sessions/:id  → clear a session","meta":null}
+{"ts":"2026-04-19T13:00:26.718Z","level":"INFO","message":"[31d3b145-e884-4d45-af91-33d5c1144b35] POST /chat session=f93b42f2-c6ed-436a-a589-8fe30da1ef40","meta":null}
+{"ts":"2026-04-19T13:01:26.510Z","level":"TOOL","message":"spotify_play","meta":{"query":"Kill Bill by SZA"}}
+{"ts":"2026-04-19T13:02:29.159Z","level":"INFO","message":"[886c7558-8c03-4b0b-99ee-fbb33947e9a4] POST /chat session=393cb7f3-a1ee-4d3a-bacc-86153035369c","meta":null}
+{"ts":"2026-04-19T13:03:18.180Z","level":"TOOL","message":"send_email","meta":{"subject":"","body":"hi bkl","to":"amitshou13@gmail.com"}}
+{"ts":"2026-04-19T13:05:40.751Z","level":"INFO","message":"[8f1a1daa-0790-481c-9681-584cc8126cca] POST /chat session=6225aa82-79a9-4378-ab8f-518768f03263","meta":null}
+{"ts":"2026-04-19T13:06:30.004Z","level":"TOOL","message":"create_note","meta":{"title":"Next Step","body":"Add voice agent capabilities","tags":[]}}
+{"ts":"2026-04-19T13:07:04.036Z","level":"INFO","message":"[49ce39ea-594b-4fc8-8eb4-8e466819970c] POST /chat session=a1379e5b-c0c4-42fa-81fe-5df9daf413e7","meta":null}
+{"ts":"2026-04-19T13:07:50.057Z","level":"TOOL","message":"list_notes","meta":{"tag":""}}
+{"ts":"2026-04-19T13:34:54.480Z","level":"INFO","message":"Session evicted: f93b42f2-c6ed-436a-a589-8fe30da1ef40","meta":null}
+{"ts":"2026-04-19T13:34:54.562Z","level":"INFO","message":"Session evicted: 393cb7f3-a1ee-4d3a-bacc-86153035369c","meta":null}
+{"ts":"2026-04-19T13:39:54.468Z","level":"INFO","message":"Session evicted: 6225aa82-79a9-4378-ab8f-518768f03263","meta":null}
+{"ts":"2026-04-19T13:39:54.478Z","level":"INFO","message":"Session evicted: a1379e5b-c0c4-42fa-81fe-5df9daf413e7","meta":null}
+{"ts":"2026-04-19T16:17:36.022Z","level":"INFO","message":"local-mcp-agent v5 starting","meta":null}
+{"ts":"2026-04-19T16:17:36.024Z","level":"INFO","message":"Model: llama3.1:latest  Endpoint: http://127.0.0.1:11434","meta":null}
+{"ts":"2026-04-19T16:17:36.025Z","level":"INFO","message":"Connecting to 1 MCP server(s)...","meta":null}
+{"ts":"2026-04-19T16:17:36.494Z","level":"INFO","message":"Connected to 'local' — 48 tool(s)","meta":null}
+{"ts":"2026-04-19T16:18:07.304Z","level":"INFO","message":"Shutdown signal received — draining in-flight requests...","meta":null}
+{"ts":"2026-04-19T16:18:07.367Z","level":"INFO","message":"Shutdown complete.","meta":null}

@@ -1,0 +1,14 @@
+{"ts":"2026-04-20T06:55:37.129Z","level":"INFO","message":"local-mcp-agent v5 starting","meta":null}
+{"ts":"2026-04-20T06:55:37.133Z","level":"INFO","message":"Model: llama3.1:latest  Endpoint: http://127.0.0.1:11434","meta":null}
+{"ts":"2026-04-20T06:55:37.133Z","level":"INFO","message":"Connecting to 1 MCP server(s)...","meta":null}
+{"ts":"2026-04-20T06:55:37.765Z","level":"INFO","message":"Connected to 'local' — 48 tool(s)","meta":null}
+{"ts":"2026-04-20T06:55:37.766Z","level":"INFO","message":"Tool registry ready — 48 tool(s) total","meta":null}
+{"ts":"2026-04-20T06:55:37.782Z","level":"INFO","message":"HTTP API listening on :8787","meta":null}
+{"ts":"2026-04-20T06:55:37.782Z","level":"INFO","message":"  GET  /health          → status check","meta":null}
+{"ts":"2026-04-20T06:55:37.782Z","level":"INFO","message":"  GET  /tools           → list all tools","meta":null}
+{"ts":"2026-04-20T06:55:37.783Z","level":"INFO","message":"  GET  /sessions        → list active sessions","meta":null}
+{"ts":"2026-04-20T06:55:37.783Z","level":"INFO","message":"  POST /chat            → blocking chat","meta":null}
+{"ts":"2026-04-20T06:55:37.784Z","level":"INFO","message":"  POST /chat/stream     → SSE streaming chat","meta":null}
+{"ts":"2026-04-20T06:55:37.784Z","level":"INFO","message":"  DELETE /sessions/:id  → clear a session","meta":null}
+{"ts":"2026-04-20T06:56:49.568Z","level":"INFO","message":"Shutdown signal received — draining in-flight requests...","meta":null}
+{"ts":"2026-04-20T06:56:49.580Z","level":"INFO","message":"Shutdown complete.","meta":null}
